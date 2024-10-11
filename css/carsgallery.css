@@ -5,7 +5,8 @@
     text-align: center;
     position: relative;
     top: 100px;
-    color:cornsilk;
+    color:rgb(255, 255, 255);
+    margin-bottom: 120px;
 }
 .bd{
     width: 100%;
@@ -19,25 +20,27 @@
 }
 
 .card{
-    width: 30%;
+    width: 100%;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
-border: 8px solid #fff;
+border: 8px solid #ffffff00;
 position: relative;
 display: inline-block;
 
 }
 .card-img{
+    /* padding: 20px; */
+   
 width: 100%;
 height: 100%;
 object-fit: cover;
 border-radius: 15px;
 
 }
-.crad-body{
-    width: 100%;
-    height: 100%;
+.card-body{
+    width: 33%;
+    height: 88%;
     top: 0;
     right: -100%;
     position: absolute;
@@ -51,7 +54,7 @@ border-radius: 15px;
     justify-content: center;
     transition: 2s;
 }
-.card:hover .crad-body{
+.card:hover .card-body{
 right: 0;
 }
 .card-title{
