@@ -44,7 +44,7 @@ border-radius: 15px;
     top: 0;
     right: -100%;
     position: absolute;
-    background: #1f3d4738;
+    background: #0c22299c;
     backdrop-filter: blur(5px);
     border-radius: 15px;
     color: #fff;
@@ -53,6 +53,7 @@ border-radius: 15px;
     flex-direction:column ;
     justify-content: center;
     transition: 2s;
+
 }
 .card:hover .card-body{
 right: 0;
@@ -61,11 +62,16 @@ right: 0;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 500;
+    font-family: "Playfair Display", serif;
+
 }
 .card-sub-title{
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 20px ;
     font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1eff53;
+
 
 }
 
@@ -74,12 +80,14 @@ right: 0;
     line-height: 25px;
     margin: 40px 0;
     font-weight: 400;
+    font-family: "Playfair Display", serif;
+
 
 }
 .card-btn{
-    color: #1f3d47;
+    color: #000000;
     width: 120px;
-    background: #8fabba;
+    background: #ff6f00;
     padding: 10px 20px;
     border-radius: 5px;
     text-transform: capitalize;
@@ -88,3 +96,53 @@ right: 0;
     font-weight: 500;
     cursor: pointer;
 }
+.card-btn:hover{
+    background-color: #f5ce58;
+   
+
+}
+.btn{
+   font-size: 15px;
+   background-color: #120c2e;
+    color:#ffffff ;
+    backdrop-filter: blur(0px);
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    left: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btns{
+    font-size: 15px;
+    background-color: #0c0630;
+     color:#ffffff ;
+     backdrop-filter: blur(0px);
+     border: none;
+     border-radius: 25px;
+     width: 80px;
+     height: 30px;
+ }
+ .btn:hover{
+
+background-color: #b09ee05f;
+ }
+ .btns:hover{
+
+    background-color: #b09ee05f;
+  
+
+     }
+
+ .textinput
+    {
+        border-radius: 25px;
+        background-color: #fff;
+        backdrop-filter: blur(0px);
+        color: black;
+        border: none;
+        width: 200px;
+        height: 30px;
+        right: 100px;
+
+    }
